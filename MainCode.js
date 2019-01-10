@@ -13,7 +13,7 @@ describe("Super calculator test suite", function(){
 		
 		objLoc.firstInput.sendKeys(holdData.first)
 		objLoc.secondInput.sendKeys(holdData.second)
-		objLoc.goButton.click()
+		objLoc.goButton.click();
 			
 			objLoc.res.getText().then(function(text){console.log(text)})
 			
@@ -21,6 +21,10 @@ describe("Super calculator test suite", function(){
 			
 			
 			browser.sleep(4000)
+			
+			console.log("I am GitDemo user and this is my 1st line code")
+			console.log("I am GitDemo user and this is my 2nd line code")
+
 			
 			
 	})
